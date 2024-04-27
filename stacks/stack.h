@@ -15,3 +15,6 @@ unsigned char acessarPilha(Pilha);  //devolve o item que está no topo da pilha
 Pilha pushPilha(Pilha,unsigned char); //coloca um item na pilha 
 Pilha popPilha(Pilha);       //retira um item da pilha 
 Pilha esvaziarPilha(Pilha);     //esvazia a pilha 
+void mostrarPilha (Pilha);      //mostra a pilha
+unsigned int profundidadePilha (Pilha);   //devolve a profundidade da pilha
+Pilha inverterPilha (Pilha);    //devolve a pilha invertida
